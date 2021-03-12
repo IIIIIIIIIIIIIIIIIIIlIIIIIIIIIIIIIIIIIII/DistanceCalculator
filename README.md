@@ -6,7 +6,7 @@ To start the project, follow these steps:
 ```
 CREATE DATABASE 'distance-calculator'
 ```
-2. Start the WildFly server. To do this, run the `standalone.bat` file . You also need to pre-configure the mysql jdbc driver in WildFly, and create DATASOURCES named `TestDistanceCalculatorDS` and JNDI `java:/magenta/datasource/test-distance-calculator`
+2. Start the WildFly 10 server. To do this, run the `standalone.bat` file . You also need to pre-configure the mysql jdbc driver in WildFly 10, and create DATASOURCES named `TestDistanceCalculatorDS` and JNDI `java:/magenta/datasource/test-distance-calculator`
 3. Deploy project:
 ```
 mvn wildfly:deploy
