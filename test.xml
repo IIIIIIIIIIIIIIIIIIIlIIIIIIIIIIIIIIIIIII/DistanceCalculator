@@ -1,0 +1,9 @@
+<root>
+    <cities>
+        <cityList latitude="53.231233" longtitude="50.190187" name="Самара"/>
+        <cityList latitude="53.507836" longtitude="49.420393" name="Тольятти"/>
+    </cities>
+    <distances>
+        <distanceList fromCity="Самара" toCity="Тольятти" distance="60"/>
+    </distances>
+</root>
