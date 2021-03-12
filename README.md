@@ -15,11 +15,11 @@ mvn wildfly:deploy
 API has 3 endpoints:
 1. The Post method for uploading data to the database, which accepts an xml file with a list of cities and a list of distances.
  ```
-http://localhost:8080/distance-calculator/api/city/
+http://localhost:8080/distance-calculator/api/add/
 ```  
 2. Get method to have list of all cities in the Database with fields `id` and `name`
 ```
-http://localhost:8080/distance-calculator/api/add/
+http://localhost:8080/distance-calculator/api/city/
 ```
 3. The Post method for calculating the distance, which in its body contains text in xml format (or a file) with a list of city names from and to
 ```
