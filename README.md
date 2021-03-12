@@ -17,7 +17,7 @@ API has 3 endpoints:
  ```
 http://localhost:8080/distance-calculator/api/city/
 ```  
-2. Get method for get list of all cities in the Database with fields `id` and `name`
+2. Get method to have list of all cities in the Database with fields `id` and `name`
 ```
 http://localhost:8080/distance-calculator/api/add/
 ```
@@ -27,7 +27,7 @@ http://localhost:8080/distance-calculator/api/calculate/{1-3}
 ```
 Where `1` is Crowflight calculation type, `2` search for a value in the database and `3` use both methods.
 # Data format
-Accepts files in the following xml format:
+Accept files in the following xml format:
 ```
 <root>
     <cities>
